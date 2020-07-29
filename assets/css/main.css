@@ -247,6 +247,18 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 400px) {
+
+		h2 {
+			display:none;
+		}
+
+		h3 {
+			display:none;
+		}
+
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -3427,20 +3439,27 @@ input, select, textarea {
 		}
 
 
-		@media screen and (max-width: 360px) {
-		  .content p {
-		    display:none;
-		  }
+		@media screen and (min-width: 100px) and (max-width: 400px;  ) {
+			  .content p {
+			    display:none;
+			  }
 
-		  .content h2 {
-		    display:none;
-		  }
+			  .content h2 {
+			    display:none;
+			  }
 
-		  .tiles article > a h2 {
-		    display:none
-		}
+			  .tiles article > a h2 {
+			    display:none
+			}
 
-		.tiles article > a p {
-		  display:none
-		}
+			.tiles article > a p {
+			  display:none
+			}
+			p {
+				display:none;
+			}
+
+			h2 {
+				display:none;
+			}
 		}
