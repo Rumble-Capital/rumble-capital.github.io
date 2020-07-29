@@ -64,4 +64,12 @@ footer {
   .content h2 {
     display:none;
   }
+
+  .tiles article > a h2 {
+    display:none
+}
+
+.tiles article > a p {
+  display:none
+}
 }
