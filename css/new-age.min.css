@@ -55,3 +55,13 @@ p {
 footer {
   background:#4fb5ff !important;
 }
+
+@media screen and (max-width: 320px) {
+.content p {
+  display:none;
+}
+
+.content h2 {
+  display:none;
+}
+}
