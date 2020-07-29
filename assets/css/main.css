@@ -3425,3 +3425,22 @@ input, select, textarea {
 			height: 35px;
     background: black;
 		}
+
+
+		@media screen and (max-width: 360px) {
+		  .content p {
+		    display:none;
+		  }
+
+		  .content h2 {
+		    display:none;
+		  }
+
+		  .tiles article > a h2 {
+		    display:none
+		}
+
+		.tiles article > a p {
+		  display:none
+		}
+		}
