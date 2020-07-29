@@ -3472,7 +3472,7 @@ input, select, textarea {
 		-webkit-transform: skew(45deg);
 		-ms-transform: skew(45deg);
 		transform: skew(45deg);
-		height: 60px;
+		height: 50px;
 		}
 
 		.other-side {
@@ -3484,7 +3484,7 @@ input, select, textarea {
 		-ms-transform: skew(-225ddeg);
 		transform: skew(-225deg);
 
-		height: 60px;
+		height: 50px;
 		}
 
 		.head {
