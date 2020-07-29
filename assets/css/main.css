@@ -3463,3 +3463,33 @@ input, select, textarea {
 				display:none;
 			}
 		}
+@media screen and (min-width: 768px) {
+		.one-side {
+			background: black;
+		-webkit-transform-origin: 100% 0;
+		-ms-transform-origin: 100% 0;
+		transform-origin: 100% 0;
+		-webkit-transform: skew(45deg);
+		-ms-transform: skew(45deg);
+		transform: skew(45deg);
+		height: 60px;
+		}
+
+		.other-side {
+			background: black;
+		-webkit-transform-origin: 100% 0;
+		-ms-transform-origin: 100% 0;
+		transform-origin: 100% 0;
+		-webkit-transform: skew(-225ddeg);
+		-ms-transform: skew(-225ddeg);
+		transform: skew(-225deg);
+
+		height: 60px;
+		}
+
+		.head {
+			width: 50%;
+    margin: 0 auto;
+    height: 60px;
+		}
+	}
