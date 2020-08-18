@@ -3406,6 +3406,15 @@ input, select, textarea {
 					font-weight: 500;
 			}
 
+			div#getting-started {
+
+				visibility:visible
+			}
+
+			.time {
+				display:block;
+			}
+
 		}
 
 
@@ -3431,6 +3440,11 @@ input, select, textarea {
 	    margin-bottom: 50px;
 	    font-family: "permanent marker";
 	    font-size: 16px;
+			visibility:hidden;
+		}
+
+		.time {
+			display:none;
 		}
 
 		nav {
