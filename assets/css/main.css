@@ -2797,6 +2797,10 @@ input, select, textarea {
 
 		}
 
+		.time {
+			display:none;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.tiles {
@@ -3440,12 +3444,10 @@ input, select, textarea {
 	    margin-bottom: 50px;
 	    font-family: "permanent marker";
 	    font-size: 16px;
-			visibility:hidden;
+
 		}
 
-		.time {
-			display:none;
-		}
+
 
 		nav {
 			height: 35px;
