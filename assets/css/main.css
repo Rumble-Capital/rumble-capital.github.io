@@ -3429,7 +3429,7 @@ input, select, textarea {
 		div#getting-started {
 			text-align: center;
 	    margin-bottom: 50px;
-	    font-family: 'Open Sans', sans-serif;
+	    font-family: "permanent marker";
 	    font-size: 16px;
 		}
 
@@ -3495,14 +3495,14 @@ input, select, textarea {
 	}
 
 	.project-count {
-		font-family: 'Open Sans', sans-serif;
+		font-family: "permanent marker";
     font-size: 16px;
     float: right;
 	}
 
 	.filter-projects-btn {
 		font-size: 16px;
-		font-family: open sans, sans-serif;
+		font-family: "permanent marker";
 		letter-spacing: 1px;
 		text-transform: none;
 		/* padding: 0 !important; */
