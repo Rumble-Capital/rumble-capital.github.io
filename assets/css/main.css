@@ -3429,13 +3429,8 @@ input, select, textarea {
 		div#getting-started {
 			text-align: center;
 	    margin-bottom: 50px;
-	    font-family: afcamberwellone;
-	    font-size: 30px;
-	    color: red;
-	    letter-spacing: 4px;
-	    margin-top: 42px;
-	    font-weight: 500;
-	    font-weight: 700;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
 		}
 
 		nav {
@@ -3497,4 +3492,24 @@ input, select, textarea {
     margin: 0 auto;
     height: 60px;
 		}
+	}
+
+	.project-count {
+		font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    float: right;
+	}
+
+	.filter-projects-btn {
+		font-size: 16px;
+		font-family: open sans, sans-serif;
+		letter-spacing: 1px;
+		text-transform: none;
+		/* padding: 0 !important; */
+		margin: 0 !important;
+		box-shadow: none;
+		line-height: 0 !important;
+		border:none;
+		height: 1em !important;
+		float:left;
 	}
