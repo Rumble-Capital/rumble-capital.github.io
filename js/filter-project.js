@@ -8,10 +8,10 @@ $(".filter-projects-dropdown a").on("click", function(e) {
     $(".filter-projects-btn").text(selectedName);
     // hiding all the projects.
     // IMPORTANT: If new owner is added as class and in dropdown then it's name should be added here
-    $(".Cornelius,.Omar,.Chris, .Rumble, .Podcast").fadeOut();
+    $(".Cornelius,.Omar,.Chris, .Rumble, .Podcasts").fadeOut();
     // if show all pressed then show all
     if (selectedName == "Show All") {
-        $(".Cornelius, .Omar, .Chris, .Rumble, .Podcast").slideToggle();
+        $(".Cornelius, .Omar, .Chris, .Rumble, .Podcasts").slideToggle();
     } else {
         // showing the selected owners
         $("." + selectedName).slideToggle();
