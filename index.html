@@ -137,6 +137,10 @@
                 <header class="top">
                     <h1 class="rumble-title">Rumble Capital
                     </h1>
+                    
+                    <input id="email_input" />
+                    <button id="email_button">Get Early Access</button>
+                    
                     <p class="sub-text">
                     </P>
 
@@ -857,6 +861,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
+    
+    <script>
+        
+        
+        
+  
+        
+        $("#email_button").on("click", function() {
+            email=$("#email_input").val()
+            $("#email_input").val("")
+            alert(email)
+            
+      alert("Thank You")
+});
+    
+    </script>
 </body>
 
 </html>
