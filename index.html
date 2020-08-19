@@ -137,10 +137,31 @@
                 <header class="top">
                     <h1 class="rumble-title">Rumble Capital
                     </h1>
-                    
-                    <input id="email_input" />
-                    <button id="email_button">Get Early Access</button>
-                    
+
+                    <input placeholder="Enter email here" id="email_input"  style="
+                              text-align: center;
+                              displayy: block;
+                              display: block;
+                              margin: 0 auto;
+                              width: 50%;
+                              border-radius: 10px;
+                              border: 5;
+                          " />
+                    <button id="email_button" style="
+                            display: block;
+                            margin: 0 auto;
+                            margin-top: 18px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            padding: 3px;
+                            padding-top: 0px;
+                            line-height: 0;
+                            height: 30px;
+                            background: #1d83f1;
+                            color: white !important;
+                            letter-spacing: 2px;
+                        ">Subscribe</button>
+
                     <p class="sub-text">
                     </P>
 
@@ -861,21 +882,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+
    <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
-    
+
 <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
- 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
-    
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    
+
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -891,24 +912,24 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-    
+
  firebase_ref=firebase.database().ref("emails")
-    
-        
+
+
         $("#email_button").on("click", function() {
-        date_time=moment().format()      
-            url=document.URL 
+        date_time=moment().format()
+            url=document.URL
             email=$("#email_input").val()
-            
-            
+
+
         email_object={url:url, email:email, date_time:date_time}
         firebase_ref.push(email_object)
             $("#email_input").val("")
-   
-            
+
+
 swal("Thank You!");
 });
-    
+
     </script>
 </body>
 
