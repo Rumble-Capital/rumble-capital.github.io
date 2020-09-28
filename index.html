@@ -176,7 +176,8 @@
                 </div>
               </div>
               <div class="col-2 time">
-                <div id="getting-started"></div>
+
+                <div id="getting-started"> 2020 Countdown</div>
               </div>
 
               <div class="col-5">
@@ -846,7 +847,7 @@
     <script src="./js/filter-project.js"></script>
     <script type="text/javascript">
       $("#getting-started").countdown("2020/12/31", function(event) {
-        $(this).text(event.strftime("%D:%H:%M:%S"));
+        $(this).text(event.strftime("%D:%H:%M:%S") + " Days Left");
       });
     </script>
     <script id="dsq-count-scr" src="//rumble-capital.disqus.com/count.js" async></script>
