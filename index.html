@@ -136,7 +136,7 @@
  <h1 class="rumble-title">Rumble Capital</h1>
 
             <input
-              placeholder="Enter email here"
+              placeholder="Enter email here for exclusive product drops"
               id="email_input"
               style="
                               text-align: center;
@@ -146,6 +146,8 @@
                               width: 50%;
                               border-radius: 10px;
                               border: 5;
+                              border-color:transparent;
+
                           "
             />
             <button
@@ -179,7 +181,7 @@
               </div>
               <div class="col-2 time">
 
-                <div id="getting-started"> 2020 Countdown</div>
+             <div id="getting-started"> </div>
               </div>
 
               <div class="col-5">
@@ -838,7 +840,7 @@
     <script src="./js/filter-project.js"></script>
     <script type="text/javascript">
       $("#getting-started").countdown("2020/12/31", function(event) {
-        $(this).text(event.strftime("%D:%H:%M:%S") + " Days Left");
+        $(this).text("Countdown: " + event.strftime("%D:%H:%M:%S"));
       });
     </script>
     <script id="dsq-count-scr" src="//rumble-capital.disqus.com/count.js" async></script>

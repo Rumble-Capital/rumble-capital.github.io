@@ -3442,7 +3442,7 @@ input, select, textarea {
 		div#getting-started {
 			text-align: center;
 	    margin-bottom: 50px;
-	    font-family: "permanent marker";
+	 	font-weight:700;
 	    font-size: 16px;
 
 		}
@@ -3511,23 +3511,27 @@ input, select, textarea {
 	}
 
 	.project-count {
-		font-family: "permanent marker";
+		font-weight:700;
     font-size: 16px;
     float: right;
 	}
 
 	.filter-projects-btn {
 		font-size: 16px;
-		font-family: "permanent marker";
+		margin-top:-15px;
+		padding-top:1px;
+		font-weight:700;
 		letter-spacing: 1px;
 		text-transform: none;
 		/* padding: 0 !important; */
-		margin: 0 !important;
+
 		box-shadow: none;
 		line-height: 0 !important;
 		border:none;
-		height: 1em !important;
+
 		float:left;
+		padding:0px;
+		letter-spacing:0px;
 	}
 
 	@-webkit-keyframes hvr-buzz {
