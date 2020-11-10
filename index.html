@@ -176,7 +176,7 @@
             <div class="row">
               <div class="col-5">
                 <div class="project-count">
-                  Project Count: 30
+                  Project Count: <span id="project_count">30</span>
                 </div>
               </div>
               <div class="col-2 time">
@@ -190,13 +190,16 @@
                     <button type="button" class="btn dropdown-toggle filter-projects-btn" data-toggle="dropdown">
                       Project Lead
                     </button>
-                    <div class="dropdown-menu filter-projects-dropdown">
-                      <a class="dropdown-item" href="#">Team</a>
-                      <a class="dropdown-item" href="#">Cornelius</a>
-                      <a class="dropdown-item" href="#">Omar</a>
-                      <a class="dropdown-item" href="#">Chris</a>
-                      <a class="dropdown-item" href="#">Podcasts</a>
+
+                                        <div class="dropdown-menu filter-projects-dropdown">
+                      <a class="dropdown-item" href="#"><span class='dropdown_name'>Team</span> <span class='project_count'></span></a>
+                      <a class="dropdown-item" href="#"><span class='dropdown_name'>Cornelius </span><span class='project_count'></span></a>
+                      <a class="dropdown-item" href="#"><span class='dropdown_name'>Omar</span> <span class='project_count'></span></a>
+                      <a class="dropdown-item" href="#"><span class='dropdown_name'>Chris</span> <span class='project_count'></span></a>
+                      <a class="dropdown-item" href="#"><span class='dropdown_name'>Podcasts</span> <span class='project_count'></span></a>
                     </div>
+
+ 
                   </div>
                 </div>
               </div>
@@ -227,7 +230,7 @@
               </a>
             </article>
 
-            <article class="Cornelius Team">
+            <article class="Cornelius Chris Team">
               <span class="image">
                 <img src="images/dump-logo.png" alt="" />
               </span>
@@ -290,7 +293,7 @@
             </a>
           </article>
 
-          <article class="Cornelius Team">
+          <article class="Cornelius Chris Team">
             <span class="image">
               <img src="images/fluttr.png" alt="" />
             </span>
@@ -328,7 +331,7 @@
 
 
 
-          <article class="Cornelius Team">
+          <article class="Cornelius Chris Team">
             <span class="image">
               <img src="images/paperboy.png" alt="" />
             </span>
@@ -747,6 +750,47 @@
                 </div>
               </a>
             </article> 
+
+                        <article class="Chris Omar">
+              <span class="image">
+                <img src="images/ddrop.png" alt="" />
+              </span>
+              <a href="https://rumble.capital/ddrop/">
+                <div class="content">
+                  <h2>DDrop</h2>
+                  <p>
+                    Drone Drop: On demand drones to take your photo 
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="Chris Omar">
+              <span class="image">
+                <img src="https://cdn.shopify.com/s/files/1/0268/8774/9694/files/circle-cropped_2_180x.png?v=1602495795" alt="" />
+              </span>
+              <a href="https://vanpro.life/">
+                <div class="content">
+                  <h2>VanPro</h2>
+                  <p>
+                    Advice and consultation building your custom van. 
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="Chris Omar">
+              <span class="image">
+                <img src="images/rumble.png" alt="" />
+              </span>
+              <a href="https://rumble.capital/rumble/">
+                <div class="content">
+                  <h2>Rumble</h2>
+                  <p>
+                    Rumble Capital App to see all apps we're developing and get real time notifications
+                  </p>
+                </div>
+              </a>
+            </article>
+
             <!-- <article class="Cornelius Omar Chris Team">
               <span class="image">
                 <img src="images/hammer.gif" alt="" />
@@ -879,8 +923,14 @@
     ></script>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.11.0/underscore-min.js"></script>
+
+
+    <script src="./js/update_project_counts.js"></script>
 
     <script>
+        update_project_count()
+
       // Your web app's Firebase configuration
       var firebaseConfig = {
         apiKey: "AIzaSyCFz1a7HsKrolW9nvVTzs_usvpbUBNPSj0",

@@ -3,7 +3,7 @@ $(".filter-projects-dropdown a").on("click", function(e) {
     // preventing default behaviour of a tag
     e.preventDefault();
     // getting name of this selected item from dropdown
-    var selectedName = $(this).text();
+    var selectedName = $(this).find('.dropdown_name').text();
     // setting name of button = name of selected item from dropdown
     $(".filter-projects-btn").text(selectedName);
     // hiding all the projects.
