@@ -1,0 +1,165 @@
+.sm_vido video {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+/* #supersized-loader {
+    background: rgb(54 49 49 / 47%);
+} */
+
+/*.sm_vido2 video {*/
+/*  object-fit: cover !important;*/
+/*  width: 100% !important;*/
+/*  height: 100% !important;*/
+/*  position: absolute !important;*/
+/*  top: 0 !important;*/
+/*  left: 0 !important;*/
+/*}*/
+.sm-testv{
+
+}
+.
+
+.sm-testv {
+  position: relative;
+  background-color: black;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sm-testv video {
+    /*object-fit: cover !important;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.sm-testv .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: .5;
+  z-index: 1;
+}
+
+.section-heading {
+    z-index: 14;
+    position: relative;
+}
+.sm-testv .section-content{
+    z-index: 14;
+    position: relative;
+}
+.section.testimonials{
+    padding: 100px 0px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (min-width: 320px){
+    .title-logo-text {
+      font-family: 'AFCamberwellOne' !important;
+      color: #343333 !important;
+      letter-spacing: 1px;
+      font-size: 35px !important;
+    }
+  }
+
+
+
+  .ion-ios-email-outline:before , .ion-ios-telephone-outline:before {
+    color:white !important;
+  }
+
+@media (min-width: 1200px){
+  .navbar {
+    padding-left:150px;
+    padding-right:150px;
+  }
+
+  .no-padding {
+    padding-right:0px !important;
+    padding-left:0px !important;
+  }
+
+}
+
+
+
+.based {
+  color:white !important;
+}
+
+.red {
+  color: red;
+  border-color: red;
+}
+
+.black {
+  color: white !important;
+  border-color: white !important;
+
+}
+
+.black-background {
+  background:black !important;
+}
+
+.white {
+  background:white !important;
+  border-color: white !important;
+}
+
+.blue {
+  background:#002aff !important;
+  border-color: #002aff !important;
+}
+.southside-name {
+  color:#e1b4f1 !important;
+  font-family:still_timeregular !important;
+}
+
+.caption-size {
+  font-size: 10px !important;
+}
+
+.push-font {
+  font-family:AFCamberwellOne !important;
+}
+
+.font-40 {
+  font-size:30px;
+}
+
+/* .navbar:hov {
+  background: white !important;
+} */
